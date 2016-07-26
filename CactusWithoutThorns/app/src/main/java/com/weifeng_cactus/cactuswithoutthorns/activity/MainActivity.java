@@ -39,6 +39,7 @@ initView();
         //为侧滑菜单设置布局
         menu.setMenu(R.layout.leftmenu);
 
+
     }
 
 

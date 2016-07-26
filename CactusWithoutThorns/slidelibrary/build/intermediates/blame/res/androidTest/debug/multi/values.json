@@ -22,29 +22,5 @@
                 }
             }
         ]
-    },
-    {
-        "outputFile": "/maiya/down/CactusWithoutThorns/slidelibrary/build/intermediates/res/merged/androidTest/debug/values/values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 903,
-                    "endColumn": 42,
-                    "endOffset": 941
-                },
-                "from": {
-                    "file": "/maiya/down/CactusWithoutThorns/slidelibrary/build/intermediates/bundles/debug/res/values/values.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 903,
-                        "endColumn": 42,
-                        "endOffset": 941
-                    }
-                }
-            }
-        ]
     }
 ]
