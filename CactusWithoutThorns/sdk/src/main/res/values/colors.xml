@@ -1,0 +1,84 @@
+<resources>
+
+    <color name="navigation_tab_select_color">#45CFFF</color>
+    <color name="navigation_tab_normal_color">#ff929292</color>
+    <color name="navigation_tab_background_color">#fff5f5f5</color>
+
+    <color name="pub_color">#45CFFF</color>
+
+    <color name="default_black">#333333</color>
+    <color name="default_separate_gray">#E5E5E5</color>
+    <color name="default_gray_e1">#ffe1e1e1</color>
+    <color name="default_gray_9">#ff999999</color>
+    <color name="default_gray_6">#ff666666</color>
+    <color name="default_background">#ffeeeeee</color>
+    <color name="default_gray_c9">#ffc9c9c9</color>
+    <color name="default_gray_d5">#ffd5d5d5</color>
+    <color name="default_title">#f9f9f9</color>
+    <color name="default_white_f9">#fff9f9f9</color>
+    <color name="default_white_f4">#fff4f4f4</color>
+    <color name="default_gray_c">#cccccc</color>
+    <color name="default_gray_a">#ffaaaaaa</color>
+    <color name="default_title_bg">#f7f7f7</color>
+    <color name="default_title_text_color">#000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="green">#ff7a7e83</color>
+    <color name="red">#ffff4d55</color>
+    <color name="blue">#79bbff</color>
+    <color name="code_yellow">#ffbd54</color>
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="default_green">#ff7fca15</color>
+    <color name="default_green_transparent">#777fca15</color>
+
+    <color name="tab_top_select">#45CFFF</color>
+    <color name="tab_top_unselect">#ff333333</color>
+
+    <color name="banner_focus_color">#45CFFF</color>
+    <color name="banner_unfocus_color">#aaffffff</color>
+
+    <color name="main_bg">#fff0f0f0</color>
+    <color name="grey">#ff58616d</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="blue1">#ff61a8de</color>
+
+
+
+    <color name="background">#FF000000</color>
+    <color name="black">#FF000000</color>
+    <color name="yellow">#FFFFE400</color>
+    <color name="pink_red">#F63E2A</color>
+    <color name="bulegray">#f0f0f0</color>
+    <color name="gray">#828282</color>
+    <color name="graylight">#cccccc</color>
+    <color name="orange">#FF6600</color>
+    <color name="orange_light">#fdaa0b</color>
+    <color name="gold">#ffd700</color>
+    <color name="semitransparent">#90000000</color>
+    <color name="nearly_hard">#97000000</color>
+    <color name="font_focus">#D7F679</color>
+    <color name="gold_player">#F7F466</color>
+    <color name="whitetran">#87FFFFFF</color>
+    <color name="divider_line">#FF575757</color>
+
+    <color name="listview_item_normal">#eef0ed</color>
+    <color name="listview_item_pressed">#d4d4d4</color>
+
+    <color name="message_checked">#90918f</color>
+    <color name="message_no_check">#323232</color>
+
+    <color name="stick_color_bg">#e2e2e2</color>
+
+    <!-- 灰色 -->
+    <color name="grey_color1">#333333</color>
+    <color name="grey_color2">#666666</color>
+    <color name="grey_color3">#999999</color>
+    <!-- 橙色 -->
+    <color name="orange_color">#de6838</color>
+    <color name="purple">#800080</color>
+    <color name="crimson">#dc143c</color>
+    <color name="menu_item_press">#2e000000</color>
+    <color name="page_backgroup">#f2f2f2</color>
+
+</resources>

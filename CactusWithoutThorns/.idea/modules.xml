@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CactusWithoutThorns.iml" filepath="$PROJECT_DIR$/CactusWithoutThorns.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk/sdk.iml" filepath="$PROJECT_DIR$/sdk/sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidelibrary/slidelibrary.iml" filepath="$PROJECT_DIR$/slidelibrary/slidelibrary.iml" />
     </modules>
   </component>
 </project>
