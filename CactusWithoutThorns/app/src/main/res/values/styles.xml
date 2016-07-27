@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="default_refresh_text_style">
+    <item name="android:textSize">14sp</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textColor">@color/default_gray_6</item>
+    </style>
+
 </resources>

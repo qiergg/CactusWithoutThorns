@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CactusWithoutThorns</string>
+    <string name="first_btn">按钮1</string>
 </resources>

@@ -13,14 +13,14 @@ import android.view.animation.AnimationSet;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
 
+import com.aebiz.sdk.Base.BaseFragmentActivity;
 import com.weifeng_cactus.cactuswithoutthorns.R;
-import com.weifeng_cactus.cactuswithoutthorns.base.BaseActivity;
 import com.weifeng_cactus.cactuswithoutthorns.utils.CacheUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SplishActivity extends BaseActivity implements View.OnClickListener {
+public class SplishActivity extends BaseFragmentActivity implements View.OnClickListener {
 
     private ViewPager splish_viewpager;
     private List<View> splashPic = new ArrayList<>();

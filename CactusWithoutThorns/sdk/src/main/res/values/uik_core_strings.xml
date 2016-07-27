@@ -5,9 +5,9 @@
 	<string name="uik_save_image_fail_get">存储失败，无法获取图片</string>
 	<string name="uik_save_image_fail_full">存储失败，可能存储空间不足</string>
 
-    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
-    <string name="pull_to_refresh_release_label">Release to refresh…</string>
-    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中</string>
 
     <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
     <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
