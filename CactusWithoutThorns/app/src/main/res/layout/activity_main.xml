@@ -36,5 +36,4 @@
         ptr:uikptrHeaderTextAppearance="@style/default_refresh_text_style" />
 
 
-
 </LinearLayout>
