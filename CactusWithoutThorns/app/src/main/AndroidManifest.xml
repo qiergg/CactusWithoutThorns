@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.weifeng_cactus.cactuswithoutthorns">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".base.App"
         android:allowBackup="true"
@@ -16,8 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity"></activity>
-        <activity android:name=".activity.SplishActivity"></activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.SplishActivity" />
+        <activity android:name=".activity.Test1" />
+        <activity android:name=".activity.PopWindow" />
+        <activity android:name=".activity.PagerIndictorDemo"></activity>
     </application>
 
 </manifest>

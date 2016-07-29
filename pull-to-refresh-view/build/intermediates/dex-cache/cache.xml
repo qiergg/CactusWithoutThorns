@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/maiya/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/maiya/CactusWithoutThorns/pull-to-refresh-view/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_059bf84134136ac7d9de5228d60b0e796ecc2b26.jar" />
+    </item>
+
+</items>

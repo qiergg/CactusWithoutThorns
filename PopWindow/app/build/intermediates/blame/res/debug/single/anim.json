@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PopWindow/app/build/intermediates/res/merged/debug/anim/pophidden_anim.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/PopWindow/app/src/main/res/anim/pophidden_anim.xml"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PopWindow/app/build/intermediates/res/merged/debug/anim/popshow_anim.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/PopWindow/app/src/main/res/anim/popshow_anim.xml"
+    }
+]

@@ -1,1 +1,2 @@
-include ':app', ':sdk'
+include ':app', ':sdk', ':librarypager'
+include ':com_handmark_pulltorefresh_library'

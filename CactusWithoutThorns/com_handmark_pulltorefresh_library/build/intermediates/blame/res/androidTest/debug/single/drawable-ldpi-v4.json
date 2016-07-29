@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/CactusWithoutThorns/com_handmark_pulltorefresh_library/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/pulltorefresh_down_arrow.png",
+        "source": "/Users/maiya/CactusWithoutThorns/CactusWithoutThorns/com_handmark_pulltorefresh_library/build/intermediates/bundles/debug/res/drawable-ldpi-v4/pulltorefresh_down_arrow.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/CactusWithoutThorns/com_handmark_pulltorefresh_library/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/pulltorefresh_up_arrow.png",
+        "source": "/Users/maiya/CactusWithoutThorns/CactusWithoutThorns/com_handmark_pulltorefresh_library/build/intermediates/bundles/debug/res/drawable-ldpi-v4/pulltorefresh_up_arrow.png"
+    }
+]

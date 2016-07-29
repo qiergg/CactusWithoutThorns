@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullScrollView"><attr format="reference" name="header"/><attr format="dimension" name="maxMoveHeight"/><attr format="dimension" name="headerTopHeight"/><attr format="dimension" name="headerVisibleHeight"/></declare-styleable>
+    <string name="app_name">PullScrollListViewDemo</string>
+</resources>

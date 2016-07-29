@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/maiya/CactusWithoutThorns/PullScrollListViewDemo/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/maiya/CactusWithoutThorns/PullScrollListViewDemo/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0_7293b4c1036aa4bb60ed836fdfc953b1fcc86f85.jar" />
+    </item>
+
+</items>

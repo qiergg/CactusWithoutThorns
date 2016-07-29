@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/load_succeed.png",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/load_succeed.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/load_failed.png",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/load_failed.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/h.jpg",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/h.jpg"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/l.jpg",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/l.jpg"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/k.jpg",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/k.jpg"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i.jpg",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/i.jpg"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/refresh_failed.png",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/refresh_failed.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/pull_icon_big.png",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/pull_icon_big.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/refresh_succeed.png",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/refresh_succeed.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/m.jpg",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/m.jpg"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/refreshing.png",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/refreshing.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/pullup_icon_big.png",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/pullup_icon_big.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading.png",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/loading.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/j.jpg",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/drawable-xhdpi/j.jpg"
+    }
+]

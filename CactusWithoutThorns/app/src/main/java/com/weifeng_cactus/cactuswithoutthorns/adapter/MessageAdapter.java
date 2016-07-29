@@ -91,4 +91,7 @@ public class MessageAdapter extends BaseAdapter {
             notifyDataSetChanged();
         }
     }
+
+
+
 }

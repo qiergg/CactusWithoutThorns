@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullScrollListViewDemo/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/PullScrollListViewDemo/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullScrollListViewDemo/app/build/intermediates/res/merged/debug/layout/item_layout.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/PullScrollListViewDemo/app/src/main/res/layout/item_layout.xml"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullScrollListViewDemo/app/build/intermediates/res/merged/debug/layout/headerview.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/PullScrollListViewDemo/app/src/main/res/layout/headerview.xml"
+    }
+]

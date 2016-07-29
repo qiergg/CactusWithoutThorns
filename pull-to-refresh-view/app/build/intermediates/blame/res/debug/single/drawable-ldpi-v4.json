@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/pull-to-refresh-view/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_pulltorefresh_arrow.png",
+        "source": "/Users/maiya/CactusWithoutThorns/pull-to-refresh-view/app/src/main/res/drawable-ldpi/ic_pulltorefresh_arrow.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/pull-to-refresh-view/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/Users/maiya/CactusWithoutThorns/pull-to-refresh-view/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/pull-to-refresh-view/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_pulltorefresh_arrow_up.png",
+        "source": "/Users/maiya/CactusWithoutThorns/pull-to-refresh-view/app/src/main/res/drawable-ldpi/ic_pulltorefresh_arrow_up.png"
+    }
+]

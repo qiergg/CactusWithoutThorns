@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/build/intermediates/res/merged/debug/layout/item_list.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/src/main/res/layout/item_list.xml"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/build/intermediates/res/merged/debug/layout/activity_gallery.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/src/main/res/layout/activity_gallery.xml"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/build/intermediates/res/merged/debug/layout/activity_list.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/src/main/res/layout/activity_list.xml"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/build/intermediates/res/merged/debug/layout/item_grid.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/src/main/res/layout/item_grid.xml"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/build/intermediates/res/merged/debug/layout/activity_pager.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/src/main/res/layout/activity_pager.xml"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/build/intermediates/res/merged/debug/layout/activity_gridview.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/ImageloaderDemo/app/src/main/res/layout/activity_gridview.xml"
+    }
+]

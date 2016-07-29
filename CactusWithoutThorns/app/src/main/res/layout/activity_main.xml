@@ -11,28 +11,38 @@
         android:layout_height="@dimen/default_title_height"
         app:mtitle="消息盒子"></com.aebiz.sdk.View.TitleBar>
 
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn1" />
 
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn2" />
 
     <com.aebiz.sdk.UIKit.component.refresh.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res/com.weifeng_cactus.cactuswithoutthorns"
         android:id="@+id/coupon_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/white"
         android:cacheColorHint="@android:color/transparent"
-        android:dividerHeight="0dp"
+        android:clipToPadding="false"
         android:divider="@null"
+        android:dividerHeight="0dp"
         android:fadingEdge="none"
         android:fastScrollEnabled="false"
         android:footerDividersEnabled="true"
         android:headerDividersEnabled="false"
         android:listSelector="@null"
         android:smoothScrollbar="true"
-        android:background="@color/white"
-        android:clipToPadding="false"
         ptr:ptrMode="both"
+        ptr:uikptrAnimationStyle="flip"
         ptr:uikptrDrawable="@mipmap/pull_refresh_loading"
         ptr:uikptrDrawableBottom="@mipmap/pull_refresh_arrow_bottom"
         ptr:uikptrDrawableTop="@mipmap/pull_refresh_arrow_top"
-        ptr:uikptrAnimationStyle="flip"
         ptr:uikptrHeaderTextAppearance="@style/default_refresh_text_style" />
 
 

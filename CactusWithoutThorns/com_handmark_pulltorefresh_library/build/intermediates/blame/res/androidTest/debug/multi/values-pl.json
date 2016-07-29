@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "/Users/maiya/CactusWithoutThorns/CactusWithoutThorns/com_handmark_pulltorefresh_library/build/intermediates/res/merged/androidTest/debug/values-pl/values-pl.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 80,
+                    "endOffset": 131
+                },
+                "from": {
+                    "file": "/Users/maiya/CactusWithoutThorns/CactusWithoutThorns/com_handmark_pulltorefresh_library/build/intermediates/bundles/debug/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 80,
+                        "endOffset": 131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 136,
+                    "endColumn": 76,
+                    "endOffset": 208
+                },
+                "from": {
+                    "file": "/Users/maiya/CactusWithoutThorns/CactusWithoutThorns/com_handmark_pulltorefresh_library/build/intermediates/bundles/debug/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 136,
+                        "endColumn": 76,
+                        "endOffset": 208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 213,
+                    "endColumn": 78,
+                    "endOffset": 287
+                },
+                "from": {
+                    "file": "/Users/maiya/CactusWithoutThorns/CactusWithoutThorns/com_handmark_pulltorefresh_library/build/intermediates/bundles/debug/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 213,
+                        "endColumn": 78,
+                        "endOffset": 287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 292,
+                    "endColumn": 77,
+                    "endOffset": 365
+                },
+                "from": {
+                    "file": "/Users/maiya/CactusWithoutThorns/CactusWithoutThorns/com_handmark_pulltorefresh_library/build/intermediates/bundles/debug/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 77,
+                        "endOffset": 365
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/maiya/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/maiya/CactusWithoutThorns/PopWindow/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0_cd1e0b445454db44f87296d986edb292722bcf48.jar" />
+    </item>
+
+</items>

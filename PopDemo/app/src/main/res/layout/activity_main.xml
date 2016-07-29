@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#DCDCDC"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6699ff">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnmenu"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/txt2"
+            android:layout_margin="5dip"
+            android:gravity="center"
+            android:text="花地街特色社区" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_toLeftOf="@+id/btnmenu"
+            android:drawableLeft="@drawable/admin"
+            android:gravity="center"
+            android:text="管理员" />
+
+        <Button
+            android:id="@+id/btnmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="@drawable/menu" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/layout0"
+        android:layout_margin="10dip"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp">
+
+    </GridView>
+</RelativeLayout>

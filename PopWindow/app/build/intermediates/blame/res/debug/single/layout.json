@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PopWindow/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/PopWindow/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PopWindow/app/build/intermediates/res/merged/debug/layout/popwindowlayout.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/PopWindow/app/src/main/res/layout/popwindowlayout.xml"
+    }
+]

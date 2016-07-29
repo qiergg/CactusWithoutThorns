@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/XListView-Android-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/maiya/CactusWithoutThorns/XListView-Android-master/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/XListView-Android-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/xlistview_arrow.png",
+        "source": "/Users/maiya/CactusWithoutThorns/XListView-Android-master/app/src/main/res/drawable-hdpi/xlistview_arrow.png"
+    }
+]

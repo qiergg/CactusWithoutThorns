@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/anim/rotating.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/anim/rotating.xml"
+    },
+    {
+        "merged": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/build/intermediates/res/merged/debug/anim/reverse_anim.xml",
+        "source": "/Users/maiya/CactusWithoutThorns/PullToRefreshAndLoad-master1/app/src/main/res/anim/reverse_anim.xml"
+    }
+]

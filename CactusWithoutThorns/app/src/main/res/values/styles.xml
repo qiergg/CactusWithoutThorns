@@ -13,5 +13,11 @@
     <item name="android:gravity">center</item>
     <item name="android:textColor">@color/default_gray_6</item>
     </style>
+    //popupwindow动画
+    <style name="myanim"
+        >
+        <item name="android:windowEnterAnimation">@anim/start</item>
+        <item name="android:windowExitAnimation">@anim/end</item>
+    </style>
 
 </resources>
