@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.weifeng_cactus.cactuswithoutthorns">
+          package="com.weifeng_cactus.cactuswithoutthorns">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:name=".base.App"
@@ -12,18 +12,18 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.WelcomeActivity">
+        <activity android:name=".activity.imp.CrimeListActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity" />
-        <activity android:name=".activity.SplishActivity" />
-        <activity android:name=".activity.Test1" />
-        <activity android:name=".activity.PopWindow" />
-        <activity android:name=".activity.PagerIndictorDemo"></activity>
+        <activity android:name=".activity.imp.CrimeActivity">
+        </activity>
+        <activity android:name=".activity.imp.SplishActivity">
+        </activity>
+        <activity android:name=".activity.imp.CrimePagerActivity"/>
     </application>
 
 </manifest>
