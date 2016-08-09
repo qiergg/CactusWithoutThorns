@@ -1,1 +1,1 @@
-include ':app', ':librarypagerIndictor'
+include ':app', ':librarypagerIndictor', ':moon'

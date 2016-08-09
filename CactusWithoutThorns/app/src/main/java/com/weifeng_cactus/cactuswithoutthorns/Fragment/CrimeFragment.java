@@ -1,7 +1,9 @@
 package com.weifeng_cactus.cactuswithoutthorns.fragment;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -10,6 +12,7 @@ import android.text.TextWatcher;
 import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -27,7 +30,7 @@ import java.util.UUID;
 /**
  * Created by maiya on 16/8/4.
  */
-public class CrimeFragment extends Fragment {
+public class CrimeFragment extends Fragment{
     public static final String EXTRA_CRIME_ID = "com.bignerdranch.android.criminalintent.crime_id";
 
     private EditText mTitleField;
@@ -44,13 +47,16 @@ public class CrimeFragment extends Fragment {
 //        UUID crimeId = (UUID) getActivity().getIntent().getSerializableExtra(EXTRA_CRIME_ID);
         UUID crimeId = (UUID) getArguments().getSerializable(EXTRA_CRIME_ID);
         mCrime = CrimeLab.get(getActivity()).getCrime(crimeId);
-
+        setHasOptionsMenu(true);
     }
 
-
     @Override
+    @TargetApi(11)
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_crime, parent, false);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+//            getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
+        }
         mTitleField = (EditText) v.findViewById(R.id.crime_title);
         mTitleField.setText(mCrime.getTitle());
         mDataButton = (Button) v.findViewById(R.id.crime_date);
@@ -66,7 +72,7 @@ public class CrimeFragment extends Fragment {
                 FragmentManager fm = getActivity().getSupportFragmentManager();
 //                DatePickerFragment dialog = new DatePickerFragment();
                 DatePickerFragment dialog = DatePickerFragment.newInstance(mCrime.getDate());
-                dialog.setTargetFragment(CrimeFragment.this,REQUEST_DATE);
+                dialog.setTargetFragment(CrimeFragment.this, REQUEST_DATE);
                 dialog.show(fm, DIALOG_DATE);
             }
         });
@@ -95,6 +101,8 @@ public class CrimeFragment extends Fragment {
 
             }
         });
+
+
         return v;
     }
 
@@ -114,12 +122,12 @@ public class CrimeFragment extends Fragment {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if(resultCode!=Activity.RESULT_OK) return;
-        if(requestCode == REQUEST_DATE){
+        if (resultCode != Activity.RESULT_OK) return;
+        if (requestCode == REQUEST_DATE) {
             Date date = (Date) data.getSerializableExtra(DatePickerFragment.EXTRA_DATE);
             mCrime.setDate(date);
             CharSequence format = DateFormat.format("yyyy-MM-dd", date);
-            Log.d("maiya",format+"");
+            Log.d("maiya", format + "");
             updateDate();
         }
     }
@@ -128,5 +136,15 @@ public class CrimeFragment extends Fragment {
         Date date = mCrime.getDate();
         CharSequence format = DateFormat.format("yyyy 年 MM 月 dd 日", date);
         mDataButton.setText(format);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

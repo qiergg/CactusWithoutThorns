@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/CactusWithoutThorns.iml" filepath="$PROJECT_DIR$/CactusWithoutThorns.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/librarypagerIndictor/librarypagerIndictor.iml" filepath="$PROJECT_DIR$/librarypagerIndictor/librarypagerIndictor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moon/moon.iml" filepath="$PROJECT_DIR$/moon/moon.iml" />
     </modules>
   </component>
 </project>
