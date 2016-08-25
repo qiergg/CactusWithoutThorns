@@ -74,6 +74,7 @@ public class CrimeFragment extends Fragment{
                 DatePickerFragment dialog = DatePickerFragment.newInstance(mCrime.getDate());
                 dialog.setTargetFragment(CrimeFragment.this, REQUEST_DATE);
                 dialog.show(fm, DIALOG_DATE);
+                
             }
         });
         mSolvedCheckBox = (CheckBox) v.findViewById(R.id.crime_solved);
