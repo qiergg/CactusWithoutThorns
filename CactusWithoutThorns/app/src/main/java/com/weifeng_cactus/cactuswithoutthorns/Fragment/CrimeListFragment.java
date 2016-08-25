@@ -4,11 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ListFragment;
-import android.view.ContextMenu;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -27,7 +23,7 @@ import java.util.ArrayList;
  * Created by maiya on 16/8/4.
  */
 public class CrimeListFragment extends ListFragment {
-    private static final int REQUEST_CRIME = 1;
+    private static final int REQUEST_CRIME=1;
     private ArrayList<Crime> mCrimes;
     private static final String TAG = "CrimeListFragment";
 
@@ -41,7 +37,6 @@ public class CrimeListFragment extends ListFragment {
 //        ArrayAdapter<Crime> adapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, mCrimes);
         CrimeAdapter adapter = new CrimeAdapter(mCrimes);
         setListAdapter(adapter);
-        setHasOptionsMenu(true);
 
 
     }
@@ -50,8 +45,6 @@ public class CrimeListFragment extends ListFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_crime_list, container, false);
-//      ListView listView= (ListView) v.findViewById(android.R.id.list);
-//        registerForContextMenu(listView);
         return v;
     }
 
@@ -101,36 +94,8 @@ public class CrimeListFragment extends ListFragment {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == REQUEST_CRIME) {
+        if(requestCode == REQUEST_CRIME){
 
         }
-    }
-
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.fragment_crime_list, menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_item_new_crime:
-                Crime crime = new Crime();
-                CrimeLab.get(getActivity()).adddCrime(crime);
-                Intent i = new Intent(getActivity(), CrimePagerActivity.class);
-                i.putExtra(CrimeFragment.EXTRA_CRIME_ID, crime.getId());
-                startActivityForResult(i, 0);
-                return true;
-            default:
-
-                return super.onOptionsItemSelected(item);
-        }
-    }
-
-    @Override
-    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
-        getActivity().getMenuInflater().inflate(R.menu.crime_list_item_context,menu);
-
     }
 }

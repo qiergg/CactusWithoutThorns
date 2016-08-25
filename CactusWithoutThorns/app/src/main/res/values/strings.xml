@@ -7,6 +7,4 @@
     <string name="crime_solved_label">Solved</string>
     <string name="crime_title">Crimes</string>
     <string name="date_picker_title">Date of crime:</string>
-    <string name="new_crime">new crime</string>
-    <string name="delete_crime">delete</string>
 </resources>
